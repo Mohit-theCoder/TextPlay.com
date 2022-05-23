@@ -91,8 +91,7 @@ const onKeyUp = ()=> {
 
     let newText = text.split(/[ ]+/);
     newText = newText.join(" "); //To not treat double space as word
-    setCount(newText.trim().split(" ").length); //To set new counter value on button click
-
+    setCount(newText.trim().split(/\s+/g).length); //To set new counter value on button click
     if (text.length!==0) {
         setPreview(text);
     }
