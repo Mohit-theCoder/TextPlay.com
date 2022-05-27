@@ -10,3 +10,5 @@ Mode:
 There are two modes available 
 Dark and Light.
 Use switch on Navbar to change mode
+
+Live url: https://textplay-51843.web.app
